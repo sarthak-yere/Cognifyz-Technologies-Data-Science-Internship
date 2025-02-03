@@ -1,131 +1,141 @@
 # Cognifyz-Technologies-Data-Science-Internship
 Data Science Internship - Restaurant Dataset Analysis
+
 This repository contains the work I completed during my Data Science internship, where I analyzed a restaurant dataset. The analysis spanned multiple tasks, from basic data exploration and preprocessing to predictive modeling. Below are the tasks I completed and the corresponding steps involved.
 
-Table of Contents
-Project Overview
-Level 1: Data Exploration & Preprocessing
-Level 2: Advanced Analysis
-Level 3: Predictive Modeling & Visualization
-Technologies and Tools Used
-Installation Instructions
-How to Run the Code
-Acknowledgements
+:-Table of Contents
 
-Project Overview
+1.Project Overview
+
+2.Level 1: Data Exploration & Preprocessing
+
+3.Level 2: Advanced Analysis
+
+4.Level 3: Predictive Modeling & Visualization
+
+5.Technologies and Tools Used
+
+6.Installation Instructions
+
+7.How to Run the Code
+
+8.Acknowledgements
+
+:-Project Overview:
+
 During my internship, I worked on a dataset of restaurant information and performed various data science tasks. The goal was to extract insights, analyze relationships, and build predictive models. The tasks ranged from data preprocessing to advanced predictive modeling, and they helped me gain hands-on experience in data exploration, feature engineering, and machine learning.
 
-Level 1: Data Exploration & Preprocessing
+:-Level 1: Data Exploration & Preprocessing
 
-Task 1: Data Exploration and Preprocessing
+:-Task 1: Data Exploration and Preprocessing
 
-Dataset Exploration: Analyzed the dataset to identify the number of rows and columns.
+-Dataset Exploration: Analyzed the dataset to identify the number of rows and columns.
 
-Handling Missing Values: Checked for missing values in each column and applied appropriate strategies to handle them.
+-Handling Missing Values: Checked for missing values in each column and applied appropriate strategies to handle them.
 
-Data Type Conversion: Converted columns to the appropriate data types, such as changing date columns to datetime format or numerical columns to float.
+-Data Type Conversion: Converted columns to the appropriate data types, such as changing date columns to datetime format or numerical columns to float.
 
-Target Variable Analysis: Explored the distribution of the target variable ("Aggregate rating") to identify any class imbalances.
+-Target Variable Analysis: Explored the distribution of the target variable ("Aggregate rating") to identify any class imbalances.
 
-Task 2: Descriptive Analysis
+:-Task 2: Descriptive Analysis
 
-Statistical Measures: Calculated basic statistical measures (mean, median, standard deviation, etc.) for numerical columns.
+-Statistical Measures: Calculated basic statistical measures (mean, median, standard deviation, etc.) for numerical columns.
 
-Categorical Variable Exploration: Explored categorical variables like "Country Code," "City," and "Cuisines" to understand their distributions.
+-Categorical Variable Exploration: Explored categorical variables like "Country Code," "City," and "Cuisines" to understand their distributions.
 
-Top Cuisines and Cities: Identified the top cuisines and cities based on the highest number of restaurants.
+-Top Cuisines and Cities: Identified the top cuisines and cities based on the highest number of restaurants.
 
-Task 3: Geospatial Analysis
+:-Task 3: Geospatial Analysis
 
-Location Visualization: Visualized the locations of restaurants on a map using latitude and longitude data.
+-Location Visualization: Visualized the locations of restaurants on a map using latitude and longitude data.
 
-City and Country Distribution: Analyzed the distribution of restaurants across different cities and countries.
+-City and Country Distribution: Analyzed the distribution of restaurants across different cities and countries.
 
-Location vs. Rating: Investigated any potential correlation between the restaurant’s location (e.g., city or country) and its aggregate rating.
+-Location vs. Rating: Investigated any potential correlation between the restaurant’s location (e.g., city or country) and its aggregate rating.
 
-Level 2: Advanced Analysis
+:-Level 2: Advanced Analysis
 
-Task 1: Table Booking and Online Delivery
+:-Task 1: Table Booking and Online Delivery
 
-Service Availability: Determined the percentage of restaurants that offer table booking and online delivery.
+-Service Availability: Determined the percentage of restaurants that offer table booking and online delivery.
 
-Rating Comparison: Compared the average ratings of restaurants that offer table booking vs those that don’t.
+-Rating Comparison: Compared the average ratings of restaurants that offer table booking vs those that don’t.
 
-Online Delivery by Price Range: Analyzed the availability of online delivery among restaurants with different price ranges.
+-Online Delivery by Price Range: Analyzed the availability of online delivery among restaurants with different price ranges.
 
-Task 2: Price Range Analysis
+:-Task 2: Price Range Analysis
 
-Most Common Price Range: Identified the most common price range among all the restaurants.
+-Most Common Price Range: Identified the most common price range among all the restaurants.
 
-Average Rating by Price Range: Calculated the average rating for each price range.
+-Average Rating by Price Range: Calculated the average rating for each price range.
 
-Best Color for Highest Rating: Identified the color corresponding to the highest average rating among different price ranges.
+-Best Color for Highest Rating: Identified the color corresponding to the highest average rating among different price ranges.
 
-Task 3: Feature Engineering
+:-Task 3: Feature Engineering
 
-Additional Features: Extracted additional features such as the length of restaurant names or addresses.
+-Additional Features: Extracted additional features such as the length of restaurant names or addresses.
 
-New Features Creation: Created new binary features like "Has Table Booking" and "Has Online Delivery" by encoding categorical variables.
+-New Features Creation: Created new binary features like "Has Table Booking" and "Has Online Delivery" by encoding categorical variables.
 
-Level 3: Predictive Modeling & Visualization
+:-Level 3: Predictive Modeling & Visualization
 
-Task 1: Predictive Modeling
+:-Task 1: Predictive Modeling
 
-Regression Model: Built a regression model to predict the aggregate rating of a restaurant based on various available features.
+-Regression Model: Built a regression model to predict the aggregate rating of a restaurant based on various available features.
 
-Model Evaluation: Split the dataset into training and testing sets, evaluated model performance using appropriate metrics (e.g., RMSE, MAE).
+-Model Evaluation: Split the dataset into training and testing sets, evaluated model performance using appropriate metrics (e.g., RMSE, MAE).
 
-Algorithm Comparison: Experimented with different algorithms (e.g., Linear Regression, Decision Trees, Random Forest) and compared their performance.
+-Algorithm Comparison: Experimented with different algorithms (e.g., Linear Regression, Decision Trees, Random Forest) and compared their performance.
 
-Task 2: Customer Preference Analysis
+:-Task 2: Customer Preference Analysis
 
-Cuisine vs. Rating: Analyzed the relationship between the type of cuisine and the restaurant's rating.
+-Cuisine vs. Rating: Analyzed the relationship between the type of cuisine and the restaurant's rating.
 
-Popular Cuisines: Identified the most popular cuisines based on the number of votes.
+-Popular Cuisines: Identified the most popular cuisines based on the number of votes.
 
-Cuisines with Higher Ratings: Investigated if certain cuisines tend to receive higher ratings.
+-Cuisines with Higher Ratings: Investigated if certain cuisines tend to receive higher ratings.
 
-Task 3: Data Visualization
+:-Task 3: Data Visualization
 
-Distribution of Ratings: Created visualizations (e.g., histograms, box plots) to represent the distribution of ratings.
+-Distribution of Ratings: Created visualizations (e.g., histograms, box plots) to represent the distribution of ratings.
 
-Cuisine/City vs. Rating: Compared the average ratings of different cuisines and cities using appropriate visualizations (e.g., bar plots, violin plots).
+-Cuisine/City vs. Rating: Compared the average ratings of different cuisines and cities using appropriate visualizations (e.g., bar plots, violin plots).
 
-Feature vs. Rating: Visualized the relationship between various features (e.g., price range, table booking) and the target variable (aggregate rating).
+-Feature vs. Rating: Visualized the relationship between various features (e.g., price range, table booking) and the target variable (aggregate rating).
 
-Technologies and Tools Used
+:-Technologies and Tools Used
 
-Programming Languages: Python
+-Programming Languages: Python
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, GeoPandas, Folium, plotly
+-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, GeoPandas, Folium, plotly
 
-Data Handling: Jupyter Notebooks
+-Data Handling: Jupyter Notebooks
 
-Version Control: Git, GitHub
+-Version Control: Git, GitHub
 
-Other Tools: Excel, Google Colab
+-Other Tools: Excel, Google Colab
 
-Installation Instructions:
+:-Installation Instructions:
 
 To run the code in this repository, follow these steps:
 
 1.Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/repositoryname.git
+-git clone https://github.com/yourusername/repositoryname.git
 
 2.Navigate to the project directory:
 
-cd repositoryname
+-cd repositoryname
 
 3.Install the required dependencies using pip:
 
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 If requirements.txt is not available, you can manually install the necessary libraries, such as:
 
-pip install pandas numpy matplotlib seaborn scikit-learn geopandas folium xgboost
+-pip install pandas numpy matplotlib seaborn scikit-learn geopandas folium xgboost
 
-How to Run the Code
+:-How to Run the Code
 
 1.Open the Jupyter Notebooks or Python scripts in your preferred IDE (e.g., VS Code, JupyterLab).
 
